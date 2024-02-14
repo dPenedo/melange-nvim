@@ -14,7 +14,7 @@ local d = palette.d -- Background colors
 
 local fv
 if vim.g.melange_enable_font_variants == true or
-   vim.g.melange_enable_font_variants == nil
+    vim.g.melange_enable_font_variants == nil
 then
   fv = {
     bold = true,
@@ -49,13 +49,14 @@ for name, attrs in pairs {
   -- TermCursor = {},
   TermCursorNC = { bg = a.sel },
 
-  ColorColumn = { bg = a.float },
+  ColorColumn = { bg = a.ui },
   CursorColumn = 'ColorColumn',
   CursorLine = 'ColorColumn',
   VertSplit = { fg = a.ui },
+  -- VertSplit = { fg = a.com },
   WinSeparator = { fg = a.ui },
 
-  LineNr = { fg = a.ui },
+  LineNr = { fg = a.sel },
   CursorLineNr = { fg = c.yellow },
 
   Folded = { fg = a.com, bg = d.cyan },
