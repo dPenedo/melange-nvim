@@ -3,7 +3,7 @@ return {
   a = {
     bg    = "#161617",
     float = "#121212",
-    sel   = "#403A36",
+    sel   = "#413654",
     ui    = "#2c2c2c",
     com   = "#C1A78E",
     fg    = "#ECE1D7",
