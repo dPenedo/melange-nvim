@@ -1,7 +1,7 @@
 {
-  "bg":"#292522",
+  "bg":"#161617",
   "fg":"#ECE1D7",
-  "bright_black":"#867462",
+  "bright_black":"#413954",
   "bright_blue":"#A3A9CE",
   "bright_cyan":"#89B3B6",
   "bright_green":"#85B695",
@@ -17,7 +17,7 @@
   "dark_red":"#7D2A2F",
   "dark_white":"#403A36",
   "dark_yellow":"#8B7449",
-  "black":"#34302C",
+  "black":"#121212",
   "blue":"#7F91B2",
   "cyan":"#7B9695",
   "green":"#78997A",

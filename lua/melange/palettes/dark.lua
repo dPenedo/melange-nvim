@@ -6,11 +6,12 @@ return {
     sel   = "#413654",
     ui    = "#2c2c2c",
     com   = "#C1A78E",
-    fg    = "#ECE1D7",
+    -- fg    = "#ECE1D7",
+    fg    = "#E7DFC6",
   },
   b = {
     red     = "#D47766",
-    yellow  = "#EBC06D",
+    yellow  = "#F4B942",
     green   = "#85B695",
     cyan    = "#89B3B6",
     blue    = "#A3A9CE",
@@ -18,7 +19,7 @@ return {
   },
   c = {
     red     = "#BD8183",
-    yellow  = "#E49B5D",
+    yellow  = "#CE8050",
     green   = "#78997A",
     cyan    = "#7B9695",
     blue    = "#7F91B2",
