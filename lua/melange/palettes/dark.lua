@@ -3,15 +3,18 @@ return {
   a = {
     bg    = "#161617",
     float = "#121212",
-    sel   = "#413654",
+    sel   = "#483C5D",
     ui    = "#2c2c2c",
-    com   = "#C1A78E",
+    com   = "#B19171",
     -- fg    = "#ECE1D7",
-    fg    = "#E7DFC6",
+    fg    = "#E6E8E6",
   },
   b = {
-    red     = "#D47766",
-    yellow  = "#F4B942",
+    red    = "#D47766",
+    -- yellow  = "#F4B942",
+    yellow = "#F3C25E",
+
+
     green   = "#85B695",
     cyan    = "#89B3B6",
     blue    = "#A3A9CE",
