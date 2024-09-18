@@ -51,7 +51,8 @@ for name, attrs in pairs {
 	-- VertSplit = { fg = a.com },
 	WinSeparator = { fg = a.ui },
 
-	LineNr = { fg = a.sel },
+	--cambio
+	LineNr = { fg = c.blue },
 	CursorLineNr = { fg = c.yellow },
 
 	Folded = { fg = a.com, bg = d.cyan },
