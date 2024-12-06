@@ -69,12 +69,11 @@ for name, attrs in pairs {
   StatusLine = 'NormalFloat',
   StatusLineNC = { fg = a.com, bg = a.float },
   WildMenu = 'NormalFloat',
-
   TabLine = { bg = a.ui, fg = a.com },
   TabLineFill = 'StatusLine',
-  TabLineSel = { bg = d.blue, fg = a.fg, bold = bold },
+  TabLineSel = { bg = c.blue, fg = a.bg, bold = bold },
 
-  MatchParen = { fg = a.sel, bg = b.yellow, bold = bold },
+  MatchParen = { fg = a.sel, bg = c.yellow, bold = bold },
   Search = { fg = a.bg, bg = d.yellow, bold = bold },
   Substitute = { bg = d.red, bold = bold },
   -- QuickFixLine = {},
@@ -348,6 +347,11 @@ for name, attrs in pairs {
   -- Flash
   FlashBackdrop = { fg = a.com },
   FlashLabel = { bg = c.yellow, bold = true, fg = a.fg },
+
+  -- Markdown
+  RenderMarkdownCodeInline = { fg = c.green, italic = true },
+  RenderMarkdownLink = { fg = c.yellow },
+  RenderMarkdownWikiLink = { fg = c.yellow },
 
   --Telescope
 
